@@ -1,13 +1,13 @@
 # Unikernels
 
-This repository contains some unikernel developped/maintained by Tarides. They are usually buildable with:
+This repository contains some unikernel developed/maintained by Tarides. They are usually buildable with:
 ```sh
 $ mirage configure -t <your-target>
 $ make depends
 $ mirage build
 ```
 
-Their deployements depend on your target. Usually, we prefer to deploy unikernel on [KVM][kvm] but [Xen][xen] is another possible target for these unikernels.
+Their deployements depend on your target. Usually, we prefer to deploy unikernels on [KVM][kvm] but [Xen][xen] is another possible target for these unikernels.
 
 ## The SMTP stack
 
